@@ -1,0 +1,5 @@
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.IoC.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.IoC.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\obj\Debug\LazyLoad.IoC.csprojResolveAssemblyReference.cache
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\obj\Debug\LazyLoad.IoC.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\obj\Debug\LazyLoad.IoC.pdb
