@@ -81,3 +81,7 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\es\System.We
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\obj\Debug\LazyLoad.Api.csprojResolveAssemblyReference.cache
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\obj\Debug\LazyLoad.Api.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\obj\Debug\LazyLoad.Api.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Aplication.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Aplication.Dto.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Aplication.Dto.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Aplication.pdb

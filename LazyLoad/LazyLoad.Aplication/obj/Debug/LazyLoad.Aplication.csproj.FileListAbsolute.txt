@@ -3,3 +3,5 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Aplication\bin\Debug
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Aplication\obj\Debug\LazyLoad.Aplication.csprojResolveAssemblyReference.cache
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Aplication\obj\Debug\LazyLoad.Aplication.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Aplication\obj\Debug\LazyLoad.Aplication.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Aplication\bin\Debug\LazyLoad.Aplication.Dto.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Aplication\bin\Debug\LazyLoad.Aplication.Dto.pdb

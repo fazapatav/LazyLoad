@@ -44,5 +44,11 @@
     <Compile Include="Services\Casos\CasosServices.cs" />
     <Compile Include="Services\Casos\ICasosServices.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LazyLoad.Aplication.Dto\LazyLoad.Aplication.Dto.csproj">
+      <Project>{89eb4bf0-5ca6-4d3b-a11c-a23e4aeeb4bf}</Project>
+      <Name>LazyLoad.Aplication.Dto</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

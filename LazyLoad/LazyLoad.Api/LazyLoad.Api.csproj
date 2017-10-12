@@ -255,6 +255,16 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LazyLoad.Aplication.Dto\LazyLoad.Aplication.Dto.csproj">
+      <Project>{89EB4BF0-5CA6-4D3B-A11C-A23E4AEEB4BF}</Project>
+      <Name>LazyLoad.Aplication.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LazyLoad.Aplication\LazyLoad.Aplication.csproj">
+      <Project>{F3A15E02-56DE-4DEF-877D-25A1D0EC22D5}</Project>
+      <Name>LazyLoad.Aplication</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
