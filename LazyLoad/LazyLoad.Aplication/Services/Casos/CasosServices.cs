@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LazyLoad.Aplication.Services.Casos
 {
-    public class CasosServices
+    public class CasosServices:ICasosServices
     {
         public List<string> ObtenerCasos(EjecucionDto carga)
         {

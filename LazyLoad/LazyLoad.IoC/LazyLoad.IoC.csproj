@@ -30,8 +30,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=4.1.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.WebApi2.4.1.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.4.12\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Purplelight.Framework.Autofac.Integration.WebApi, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Purplelight.Framework.Autofac.Integration.WebApi.0.2.2\lib\net45\Purplelight.Framework.Autofac.Integration.WebApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +61,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\AplicationServicesConfiguration.cs" />
+    <Compile Include="Configurations\DomainConfiguration.cs" />
+    <Compile Include="Configurations\RepositoryConfiguration.cs" />
+    <Compile Include="IAppContainer.cs" />
+    <Compile Include="IoCAutofacContainer.cs" />
+    <Compile Include="IoCFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LazyLoad.Aplication\LazyLoad.Aplication.csproj">
+      <Project>{F3A15E02-56DE-4DEF-877D-25A1D0EC22D5}</Project>
+      <Name>LazyLoad.Aplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LazyLoad.Domain\LazyLoad.Domain.csproj">
+      <Project>{AF4412D2-68C9-4C20-968D-41D7BD4407EF}</Project>
+      <Name>LazyLoad.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
