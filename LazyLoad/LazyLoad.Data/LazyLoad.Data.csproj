@@ -59,6 +59,11 @@
     <Compile Include="Repositories\EjecucionRepository.cs" />
     <Compile Include="Repositories\EjecutorRepository.cs" />
     <Compile Include="Repositories\ElementoRepository.cs" />
+    <Compile Include="UnitOfWork\EntityConfigurations\CasoConfiguration.cs" />
+    <Compile Include="UnitOfWork\EntityConfigurations\EjecucionConfiguration.cs" />
+    <Compile Include="UnitOfWork\EntityConfigurations\EjecutorConfiguration.cs" />
+    <Compile Include="UnitOfWork\EntityConfigurations\ElementoConfiguration.cs" />
+    <Compile Include="UnitOfWork\LazyLoadUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -12,7 +12,7 @@ namespace LazyLoad.Data.UnitOfWork.EntityConfigurations
             ToTable("Caso");
             HasKey(t => t.Id);
             Property(item => item.Viajes)
-                .HasColumnType("smallint")
+                .HasColumnType("int")
                 .IsRequired();
 
             HasRequired(item => item.Ejecucion)

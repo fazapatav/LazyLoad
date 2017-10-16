@@ -28,9 +28,12 @@ namespace LazyLoad.Aplication.Services.Casos
         public List<string> ObtenerCasos(EjecucionDto carga)
         {
             //se verica q la info llegue bien, se generan mensajes, se recibe resultado de domain y se retorna a api
+
+            //esto es de prueba
             Ejecutor ejecutorTest = new Ejecutor();
             ejecutorTest.Cedula = 1035854453;
             _ejecutorRepository.Add(ejecutorTest);
+            _ejecutorRepository.UnitOfWork.Commit();
             return new List<string>();
         }
     }
