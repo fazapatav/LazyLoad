@@ -25,3 +25,5 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\System
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Aplication.Dto.pdb
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\es\System.Net.Http.Formatting.resources.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\es\System.Web.Http.resources.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Entity.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Entity.pdb

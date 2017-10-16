@@ -4,6 +4,7 @@ namespace LazyLoad.Data
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    using LazyLoad.Entity.Model;
 
     public partial class Model : DbContext
     {
@@ -16,7 +17,6 @@ namespace LazyLoad.Data
         public virtual DbSet<Ejecucion> Ejecucion { get; set; }
         public virtual DbSet<Ejecutor> Ejecutor { get; set; }
         public virtual DbSet<Elemento> Elemento { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

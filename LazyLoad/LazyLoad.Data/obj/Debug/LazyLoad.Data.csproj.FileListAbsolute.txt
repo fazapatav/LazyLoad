@@ -3,3 +3,12 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\LazyL
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\obj\Debug\LazyLoad.Data.csprojResolveAssemblyReference.cache
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\obj\Debug\LazyLoad.Data.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\obj\Debug\LazyLoad.Data.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\LazyLoad.Data.dll.config
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\EntityFramework.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\LazyLoad.Domain.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\LazyLoad.Entity.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\LazyLoad.Domain.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\LazyLoad.Entity.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\EntityFramework.xml
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Data\bin\Debug\EntityFramework.SqlServer.xml

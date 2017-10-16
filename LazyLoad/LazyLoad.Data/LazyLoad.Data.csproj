@@ -49,12 +49,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Interfaces\ILazyLoadUnitOfWork.cs" />
+    <Compile Include="Core\Interfaces\IQueryableUnitOfWork.cs" />
+    <Compile Include="Core\Repository.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\QueryableUnitOfWork.cs" />
+    <Compile Include="Repositories\CasoRepository.cs" />
+    <Compile Include="Repositories\EjecucionRepository.cs" />
+    <Compile Include="Repositories\EjecutorRepository.cs" />
+    <Compile Include="Repositories\ElementoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LazyLoad.Domain\LazyLoad.Domain.csproj">
+      <Project>{AF4412D2-68C9-4C20-968D-41D7BD4407EF}</Project>
+      <Name>LazyLoad.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LazyLoad.Entity\LazyLoad.Entity.csproj">
+      <Project>{843B9943-7515-47DE-B0D2-6D6B3E7E7305}</Project>
+      <Name>LazyLoad.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

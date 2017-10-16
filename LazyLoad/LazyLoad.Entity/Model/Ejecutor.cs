@@ -1,11 +1,12 @@
-namespace LazyLoad.Data
-{
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace LazyLoad.Entity.Model
+{
     [Table("Ejecutor")]
     public partial class Ejecutor
     {

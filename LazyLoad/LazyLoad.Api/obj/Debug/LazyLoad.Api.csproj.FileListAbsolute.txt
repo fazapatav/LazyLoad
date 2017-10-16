@@ -72,3 +72,5 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\Microsoft.As
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\System.Diagnostics.DiagnosticSource.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Entity.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Entity.pdb
