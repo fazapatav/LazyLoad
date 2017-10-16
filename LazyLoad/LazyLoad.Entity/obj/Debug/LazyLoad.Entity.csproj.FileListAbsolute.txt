@@ -1,0 +1,5 @@
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Entity\bin\Debug\LazyLoad.Entity.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Entity\bin\Debug\LazyLoad.Entity.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Entity\obj\Debug\LazyLoad.Entity.csprojResolveAssemblyReference.cache
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Entity\obj\Debug\LazyLoad.Entity.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Entity\obj\Debug\LazyLoad.Entity.pdb
