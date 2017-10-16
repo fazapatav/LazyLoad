@@ -74,3 +74,10 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\Microsoft.As
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\System.Diagnostics.DiagnosticSource.xml
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Entity.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Entity.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Data.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\EntityFramework.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Data.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\LazyLoad.Data.dll.config
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\EntityFramework.xml
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.Api\bin\EntityFramework.SqlServer.xml

@@ -78,6 +78,10 @@
       <Project>{F3A15E02-56DE-4DEF-877D-25A1D0EC22D5}</Project>
       <Name>LazyLoad.Aplication</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LazyLoad.Data\LazyLoad.Data.csproj">
+      <Project>{FA8486B9-B62C-4702-AD90-901C5825351E}</Project>
+      <Name>LazyLoad.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LazyLoad.Domain\LazyLoad.Domain.csproj">
       <Project>{AF4412D2-68C9-4C20-968D-41D7BD4407EF}</Project>
       <Name>LazyLoad.Domain</Name>

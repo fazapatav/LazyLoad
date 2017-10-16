@@ -27,3 +27,10 @@ D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\es\Sys
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\es\System.Web.Http.resources.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Entity.dll
 D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Entity.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Data.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\EntityFramework.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Data.pdb
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\LazyLoad.Data.dll.config
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\EntityFramework.xml
+D:\Proyectos\aumento prueba .net\LazyLoad\LazyLoad\LazyLoad.IoC\bin\Debug\EntityFramework.SqlServer.xml
