@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LazyLoad.Aplication.Services.Casos
+namespace LazyLoad.Aplication.Services
 {
     public class CasosServices:ICasosServices
     {

@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Casos\CasosServices.cs" />
-    <Compile Include="Services\Casos\ICasosServices.cs" />
+    <Compile Include="Services\CasosServices.cs" />
+    <Compile Include="Services\ICasosServices.cs" />
+    <Compile Include="Services\EjecucionServices.cs" />
+    <Compile Include="Services\IEjecucionServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LazyLoad.Aplication.Dto\LazyLoad.Aplication.Dto.csproj">

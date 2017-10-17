@@ -8,7 +8,8 @@ namespace LazyLoad.IoC.Configurations
     {
         public static void Configure(ContainerBuilder builder)
         {
-            builder.RegisterType(typeof(CasosDomain)).As(typeof(ICasosDomain)).InstancePerDependency();
+            builder.RegisterType(typeof(CasoDomain)).As(typeof(ICasoDomain)).InstancePerDependency();
+            builder.RegisterType(typeof(EjecucionDomain)).As(typeof(IEjecucionDomain)).InstancePerDependency();
         }
     }
 }

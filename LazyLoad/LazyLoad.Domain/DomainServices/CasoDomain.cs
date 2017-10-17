@@ -1,4 +1,5 @@
 ﻿using LazyLoad.Domain.DomainContracts;
+using LazyLoad.Entity.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,24 +8,22 @@ using System.Threading.Tasks;
 
 namespace LazyLoad.Domain.DomainServices
 {
-    public class CasosDomain: ICasosDomain
+    public class CasoDomain: ICasoDomain
     {
         //private ? ObtenerCasos(List<int> elementos)
 
-        private int CalcularViajes(List<int> elementos)
+        public int CalcularViajes(Caso caso)
         {
-            //elementos =  { 32, 56, 76, 8, 44, 60, 47, 85, 71, 91 };
-
-            Console.WriteLine("carga peresoza");
+         
             //se ordenan los elementos
-            elementos = elementos.OrderByDescending(x => x).ToList();
+            List<Elemento> elementos=caso.Elemento.OrderByDescending(x => x.Valor).ToList();
             int elementosEnLaBolsa = 1;
             int indiceElementoMayorCargado = 0;
             int indiceElementoMenorCargado = elementos.Count - 1;
             int cantidadDeViajes = 0;
             while (indiceElementoMayorCargado < indiceElementoMenorCargado)
             {
-                while (elementos[indiceElementoMayorCargado] * elementosEnLaBolsa < 50)
+                while (elementos[indiceElementoMayorCargado].Valor * elementosEnLaBolsa < 50)
                 {
                     elementosEnLaBolsa++;
                     if (elementosEnLaBolsa > elementos.Count) { break; }

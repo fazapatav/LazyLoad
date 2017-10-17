@@ -1,5 +1,5 @@
 ﻿using Autofac;
-using LazyLoad.Aplication.Services.Casos;
+using LazyLoad.Aplication.Services;
 
 namespace LazyLoad.IoC.Configurations
 {
@@ -8,6 +8,7 @@ namespace LazyLoad.IoC.Configurations
         public static void Configure(ContainerBuilder builder)
         {
             builder.RegisterType(typeof(CasosServices)).As(typeof(ICasosServices)).InstancePerDependency();
+            builder.RegisterType(typeof(EjecucionServices)).As(typeof(IEjecucionServices)).InstancePerDependency();
         }
     }
 }

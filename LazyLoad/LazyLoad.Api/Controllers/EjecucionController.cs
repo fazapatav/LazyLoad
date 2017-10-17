@@ -1,11 +1,9 @@
 ﻿using LazyLoad.Aplication.Dto.Ejecucion;
-using LazyLoad.Aplication.Services.Casos;
+using LazyLoad.Aplication.Services;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Web;
 using System.Web.Http;
 
 namespace LazyLoad.Api.Controllers
@@ -13,12 +11,12 @@ namespace LazyLoad.Api.Controllers
     public class EjecucionController : ApiController
     {
         #region Member
-        private readonly ICasosServices _casosServices;
+        private readonly IEjecucionServices _ejecucionServices;
         #endregion Member
         #region Constructor
-        public EjecucionController(ICasosServices casosServices)
+        public EjecucionController(IEjecucionServices ejecucionServices)
         {
-            this._casosServices = casosServices;
+            this._ejecucionServices = ejecucionServices;
         }
         #endregion
         #region Methods
@@ -27,7 +25,7 @@ namespace LazyLoad.Api.Controllers
         //FromBody especifica que los parametros provienen a traves del pos (json)
         public HttpResponseMessage CargarArchivo([FromBody]EjecucionDto ejecucion)
         {
-            List<string> result = _casosServices.ObtenerCasos(ejecucion);
+            _ejecucionServices.ObtenerCasos(ejecucion);
             return Request.CreateResponse(HttpStatusCode.OK, $"I want more money {ejecucion.Cedula}");
         }
         #endregion
